@@ -5,7 +5,7 @@
 #include "abbr.hpp"
 
 int main(){
-	std::cout << abbr::number<int, 5>(-1000000);
+	std::cout << abbr::number<int, 4>(-1000000);
 	std::cout << std::endl;
 
 	std::cout << abbr::number<int, 4>(-999999);
